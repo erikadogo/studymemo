@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="BookData" targetNamespace="http://tempuri.org/BookData.xsd" xmlns:mstns="http://tempuri.org/BookData.xsd" xmlns="http://tempuri.org/BookData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="BookData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="BookData" msprop:Generator_UserDSName="BookData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="登録日" msprop:Generator_ColumnVarNameInTable="column登録日" msprop:Generator_ColumnPropNameInRow="登録日" msprop:Generator_ColumnPropNameInTable="登録日Column" msprop:Generator_UserColumnName="登録日" type="xs:string" minOccurs="0" />
+              <xs:element name="書籍タイトル" msprop:Generator_ColumnVarNameInTable="column書籍タイトル" msprop:Generator_ColumnPropNameInRow="書籍タイトル" msprop:Generator_ColumnPropNameInTable="書籍タイトルColumn" msprop:Generator_UserColumnName="書籍タイトル" type="xs:string" />
+              <xs:element name="著者名" msprop:Generator_ColumnVarNameInTable="column著者名" msprop:Generator_ColumnPropNameInRow="著者名" msprop:Generator_ColumnPropNameInTable="著者名Column" msprop:Generator_UserColumnName="著者名" type="xs:string" minOccurs="0" />
+              <xs:element name="出版日" msprop:Generator_ColumnVarNameInTable="column出版日" msprop:Generator_ColumnPropNameInRow="出版日" msprop:Generator_ColumnPropNameInTable="出版日Column" msprop:Generator_UserColumnName="出版日" type="xs:string" minOccurs="0" />
+              <xs:element name="総ページ数" msprop:Generator_ColumnVarNameInTable="column総ページ数" msprop:Generator_ColumnPropNameInRow="総ページ数" msprop:Generator_ColumnPropNameInTable="総ページ数Column" msprop:Generator_UserColumnName="総ページ数" type="xs:string" minOccurs="0" />
+              <xs:element name="カテゴリ" msprop:Generator_ColumnVarNameInTable="columnカテゴリ" msprop:Generator_ColumnPropNameInRow="カテゴリ" msprop:Generator_ColumnPropNameInTable="カテゴリColumn" msprop:Generator_UserColumnName="カテゴリ" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
